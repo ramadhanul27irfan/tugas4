@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <h1 class="welcome-text">Selamat Datang di Website Danul</h1>
+    <h1 class="welcome-text">ATURAN BAR SEKARSA</h1>
     <Navbar @update:menu="selectedMenu = $event" />
     <div class="content">
       <Peraturan v-if="selectedMenu === 'peraturan'" />
@@ -102,4 +102,5 @@ li.active {
   color: #f7f1e3; /* Warna putih krem */
   border-radius: 4px;
 }
+
 </style>
